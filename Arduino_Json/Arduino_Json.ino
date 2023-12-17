@@ -11,7 +11,7 @@ void setup() {
   Serial.begin(9600);
   //字串轉JSON
   json_doc["name"] = "Person01";
-  json_doc["msg"] = "Hellow!";
+  json_doc["msg"] = "Hi!I'm Person01";
   serializeJson(json_doc, json_output);
   Serial.println( "string to json:" ); 
   Serial.println( json_output ); 
